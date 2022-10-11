@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 66.5%;
+}
+
+:root{
+    --bg-color: #E5E5E5;
+    --color-button: #E1E1E6;
+    --font-color: #323238;
+    --bg-secondary: #02799D;
+    --icon-color-active: #fff;
+    --bg-tertiary: #0A3442;
+}
+
+body{
+
+    min-width: 90vw;
+    min-height: 100vh;
+    font-family: 'Roboto';
+    background-color: var(--bg-color);
+    display: grid;
+    place-content: center;
+}
+
+main{
+    min-width: 119.1rem;
+    gap: 35rem;
+    display: flex;
+    align-items: center;
+}
+
+.themeDark, .themeWhite {
+    position: absolute;
+    right: 4.69%;
+    top: 8.33%;
+}
+
+
+.timerControls{
+    
+    max-width: 32.1rem;
+    padding: 19.6rem 22.6rem 18.8rem 23.3rem;
+
+}
+
+.timer{
+    width: 32.1rem;
+
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20rem;
+    line-height: 14.8rem;
+    margin-bottom: 4rem;
+
+}
+
+.timerControls button{
+    background: transparent;
+    cursor: pointer;
+}
+
+
+.controls{
+    display: flex;
+    gap: 4rem;
+}
+
+.effects{
+    width: 30.8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+
+}
+
+.effects button{
+    border-radius: 1rem;
+    width: 13.8rem;
+    height: 15.2rem;
+
+    display: grid;
+    place-items: center;
+}
+
+.buttonBackgroundEffects{
+    background-color: #fff;
+}
+
+.darkButtonBackgroundEffects{
+    background-color: #323238;
+}
+
+
+.florest{
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.fire{
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.coffe{
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.rain{
+    cursor: pointer;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btnActive{
+   background-color: var(--bg-secondary);
+} 
+
+.darkClassActive{
+    background-color: var(--bg-tertiary);
+}
+
+.florest.btnActive svg path, .rain.btnActive svg path, .coffe.btnActive svg path, .fire.btnActive svg path {
+    fill: var(--icon-color-active);
+}
+
+.hide{
+    display: none;
+}
+
+.themeDark, .themeWhite{
+    cursor: pointer;
+}
+
+.fillWhite{
+    fill: var(--icon-color-active);
+}
+
+
+
+@media (max-width: 1024px) {
+        main{
+            flex-direction: column;
+            gap: 2rem;
+            
+        }
+
+        .timerControls {
+            max-width: 40rem;
+            padding: 2rem;
+        }
+}
+
+@media (max-width: 445px) {
+    main{
+        flex-direction: column;
+        gap: 2rem;
+        
+    }
+
+    .timerControls {
+        max-width: 40rem;
+        padding: 2rem;
+    }
+}

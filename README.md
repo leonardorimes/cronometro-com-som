@@ -15,4 +15,6 @@
   <li> JavaScript (Factory Function). </li>
 </ul>
 
+[Você pode conferir o projeto aqui](https://leonardorimes.github.io/cronometro-com-som/)
+
 

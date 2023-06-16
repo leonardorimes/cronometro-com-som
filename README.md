@@ -1,4 +1,5 @@
 # ⏱️ Cronômetro com Som
+![cronometro_project](https://user-images.githubusercontent.com/67798915/195098464-19ae117f-7810-4dc1-8ae1-ead01bf7624e.png)
 
 Projeto criado como desafio da plataforma Explorer da Rocketseat. Recebi o layout no Figma e desenvolvi o layout e as funcionalidades.
 

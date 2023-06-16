@@ -19,12 +19,11 @@ Projeto criado como desafio da plataforma Explorer da Rocketseat. Recebi o layou
 
 1. Clone o repositório em sua máquina:
 
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/leonardorimes/cronometro-com-som.git
 
 2. Navegue até o diretório do projeto:
 
 cd nome-do-repositorio
-
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
 
